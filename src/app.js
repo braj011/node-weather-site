@@ -30,7 +30,7 @@ app.use(express.static(pubDirectoryPath))
 // Dynamic pages (routes) - have since deleted the static pages in public folder
 app.get('', (req, res) => {
   res.render('', {
-    title: "Weather App",
+    title: "Weatherfi",
     name: "Bhagya Raj"
   }) 
 })
